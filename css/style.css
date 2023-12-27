@@ -1,0 +1,40 @@
+/* header and nav bar style */
+header{
+    display: flex;
+    margin: 20px;
+}
+header h1{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.category{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(140, 140, 231);
+}
+.category ul li{
+ list-style: none;
+ margin-right: 50px;
+ margin-top: 20px;
+ display: inline;
+}
+
+/* --------------contact page----------------*/
+.contact-form{
+    
+}
+
