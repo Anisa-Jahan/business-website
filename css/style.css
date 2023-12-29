@@ -34,7 +34,11 @@ ul li a{
 }
 
 /* --------------contact page----------------*/
-.contact-form{
-    
+.contact-img{
+    width: 100%;
+}
+.get-in-touch{
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 10px;
 }
 
