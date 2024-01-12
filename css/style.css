@@ -33,6 +33,49 @@ ul li a{
  display: inline;
 }
 
+/* --------------sign-in page----------------*/
+.login-form{
+    background-color: rgb(240, 237, 233);
+    padding: 20px;
+}
+.fa-circle-user{
+ font-size: 100px;
+}
+.login-form input{ 
+    width: 80%;
+    height: 50px;
+    margin-left: 55px;
+    border: 0;
+}
+.login-form input:hover{
+    border: 2px solid rgb(21, 76, 121);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.login-form a{
+    text-decoration: none;
+}
+.sign-in-btn{
+    background-color: rgb(21, 76, 121);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 35%;
+    color: white;
+}
+.create-account-btn{
+    background-color: rgb(43, 141, 43);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.create-account-btn a{
+    color: white;
+}
+.login-form button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
 /* --------------contact page----------------*/
 .contact-img{
     width: 100%;
