@@ -1,3 +1,4 @@
+
 /* header and nav bar style */
 header{
     display: flex;
@@ -33,7 +34,6 @@ ul li a{
  display: inline;
 }
 /* ---------------sign-up page----------------- */
-
 .sign-up-btn{
     margin-top: 20px;
     background-color: rgb(21, 76, 121);
@@ -42,9 +42,6 @@ ul li a{
     padding: 10px 30px 10px 30px;
     border-radius: 5px;
 }
-
-
-
 
 
 /* --------------sign-in page----------------*/
@@ -95,8 +92,10 @@ ul li a{
     width: 100%;
 }
 .get-in-touch{
+    color: rgb(21, 76, 121);
     text-shadow: 2px 2px 4px #000000;
     margin-bottom: 10px;
+
 }
 
 
