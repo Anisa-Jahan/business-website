@@ -97,5 +97,17 @@ ul li a{
     margin-bottom: 10px;
 
 }
+.fa-heart{
+    font-size: 20px;
+}
 
+/*---------- buy now btn--------- */
+.buy-now-btn{
+border: 2px solid rgb(21, 76, 121);
+}
 
+/*---------- add cart btn--------- */
+.add-cart-btn{
+background-color: rgb(21, 76, 121);
+color: white;
+}
