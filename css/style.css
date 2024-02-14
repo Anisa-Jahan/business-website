@@ -1,4 +1,9 @@
-
+/* common design */
+.allHeadlines{
+    color: rgb(21, 76, 121);
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 10px;
+} 
 /* header and nav bar style */
 header{
     display: flex;
@@ -32,6 +37,21 @@ ul li a{
  margin-right: 50px;
  margin-top: 20px;
  display: inline;
+}
+
+/* -----------index page designs---------- */
+
+.fa-check{
+    font-size: 100px;
+    color: rgb(21, 76, 121);
+    display: flex;
+    justify-content: center;
+}
+.about-service{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px;
 }
 /* ---------------sign-up page----------------- */
 .sign-up-btn{
@@ -91,12 +111,6 @@ ul li a{
 .contact-img{
     width: 100%;
 }
-.get-in-touch{
-    color: rgb(21, 76, 121);
-    text-shadow: 2px 2px 4px #000000;
-    margin-bottom: 10px;
-
-}
 .fa-heart{
     font-size: 20px;
 }
@@ -111,3 +125,4 @@ border: 2px solid rgb(21, 76, 121);
 background-color: rgb(21, 76, 121);
 color: white;
 }
+
