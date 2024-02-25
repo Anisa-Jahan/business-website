@@ -1,4 +1,7 @@
 /* common design */
+a{
+    text-decoration: none;
+}
 .allHeadlines{
     color: rgb(21, 76, 121);
     text-shadow: 2px 2px 4px #000000;
@@ -51,6 +54,17 @@ ul li a{
     display: flex;
     justify-content: center;
     margin: 5px;
+    padding: 3px;
+}
+.band-img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.band-name{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin: 50px;
     padding: 3px;
 }
 /* ---------------sign-up page----------------- */
@@ -125,4 +139,3 @@ border: 2px solid rgb(21, 76, 121);
 background-color: rgb(21, 76, 121);
 color: white;
 }
-
