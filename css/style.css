@@ -161,7 +161,7 @@ border: 2px solid rgb(21, 76, 121);
 .item_card_group{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
+    margin: 30px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
