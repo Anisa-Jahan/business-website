@@ -46,7 +46,12 @@ ul li a{
 }
 
 /* -----------index page designs---------- */
-
+.latest_added_item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 15px;
+    padding: 10px;
+}
 .fa-check{
     font-size: 100px;
     color: rgb(21, 76, 121);
@@ -132,32 +137,7 @@ ul li a{
     font-size: 20px;
 }
 /* ---------Item card----------*/
-/* .item-card{
-    height: auto;
-    width: 400px;
-    padding: 5px;
-    background-color: rgb(238, 234, 229);
-    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.2);
-}
-.item-btn{
-    width: 100%;
-}
-.buy-now-btn{
-border: 2px solid rgb(21, 76, 121);
-color: rgb(21, 76, 121);
-width: 50%;
 
-}
-.add-cart-btn{
-background-color: rgb(21, 76, 121);
-color: white;
-width: 50%;
-border: 2px solid rgb(21, 76, 121);
-}
-.buy-now-btn:hover{
-    background-color: rgb(21, 76, 121);
-    color: white;
-} */
 .item_card_group{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
