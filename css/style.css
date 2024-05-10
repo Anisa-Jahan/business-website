@@ -131,21 +131,70 @@ ul li a{
 .fa-heart{
     font-size: 20px;
 }
-
-/*---------- buy now btn--------- */
+/* ---------Item card----------*/
+/* .item-card{
+    height: auto;
+    width: 400px;
+    padding: 5px;
+    background-color: rgb(238, 234, 229);
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.2);
+}
+.item-btn{
+    width: 100%;
+}
 .buy-now-btn{
 border: 2px solid rgb(21, 76, 121);
-}
+color: rgb(21, 76, 121);
+width: 50%;
 
-/*---------- add cart btn--------- */
+}
 .add-cart-btn{
 background-color: rgb(21, 76, 121);
 color: white;
+width: 50%;
+border: 2px solid rgb(21, 76, 121);
 }
+.buy-now-btn:hover{
+    background-color: rgb(21, 76, 121);
+    color: white;
+} */
+.item_card_group{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: rgb(21, 76, 121);
+    font-size: 25px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
 
 /* Footer */
 footer{
-    height: 300px;
+    height: 250px;
     background-color: rgb(21, 76, 121);
     padding: 10px;
 }
@@ -159,4 +208,11 @@ footer section div h5{
 .fa-square-facebook, .fa-instagram, .fa-linkedin, .fa-whatsapp{
     font-size: 50px;
     padding: 5px;
+}
+footer div ul li a:hover{
+   font-weight: bold;
+}
+footer div ul li a i:hover{
+    color: rgb(21, 76, 121);
+    background-color: white;
 }
