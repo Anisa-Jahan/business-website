@@ -13,6 +13,7 @@ ul li{
 /* header and nav bar style */
 header{
     display: flex;
+    justify-content: space-between;
     margin: 20px;
 }
 header h1{
@@ -22,6 +23,13 @@ header h1{
     margin-left: 20px;
     
 }
+.upper-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-nav ul li a{
+    color: gray;
+}
 nav ul li{
     list-style: none;
     display: inline;
@@ -30,19 +38,21 @@ nav ul li{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 .category{
     text-align: center;
-    padding: 10px;
-    background-color: rgb(140, 140, 231);
+    padding: 20px;
+    background-color: rgb(21, 76, 121);
+    height: 75px;
 }
 .category ul li{
  list-style: none;
- margin-right: 50px;
+ margin-right: 80px;
  margin-top: 20px;
  display: inline;
+ padding: 25px;
 }
 
 /* -----------index page designs---------- */
@@ -75,7 +85,17 @@ ul li a{
     margin: 50px;
     padding: 3px;
 }
-/* ---------------sign-up page----------------- */
+/* ---------------registration page----------------- */
+.registration-input form{
+    margin-top: 10px;
+}
+.registration-input form div input{
+    border: 1px solid rgb(21, 76, 121);
+}
+.registration-input form div label{
+    font-weight: bold;
+    color: rgb(21, 76, 121);
+}
 .sign-up-btn{
     margin-top: 20px;
     background-color: rgb(21, 76, 121);
@@ -93,6 +113,7 @@ ul li a{
 }
 .fa-circle-user{
  font-size: 100px;
+ color: rgb(21, 76, 121);
 }
 .login-form input{ 
     width: 80%;
@@ -121,6 +142,7 @@ ul li a{
     padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 10px;
+    color: white;
 }
 .create-account-btn a{
     color: white;
